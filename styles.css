@@ -108,7 +108,7 @@ border: none;
 border-radius: 5px;
 }
 
-.section-1{
+#section-1{
   border: 1px solid black;
 
 }
@@ -118,7 +118,7 @@ h2 {
   font-size: 30px;
 }
 
-.section-1 p{
+#section-1 p{
   font-size: 20px;
 }
 
@@ -129,11 +129,11 @@ main{
   gap: 100px;
 }
 
-.news{
-  border: 1px solid black;
+#news{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 20px;
+  justify-content: flex-start;
   
 }
 .news-card {
@@ -175,4 +175,7 @@ main{
   text-decoration: none;
   color: #007BFF;
   font-weight: bold;
+}
+html {
+  scroll-behavior: smooth;
 }
